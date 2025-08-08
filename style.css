@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#greeting{
+    background-color: blueviolet;
+    color: white;
+    padding: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#box-container{
+    margin-top: 6rem;
+    margin-bottom: 6rem;
+    display: flex;
+    gap: 2rem;
+    justify-content: center;
+    align-items: center;
+}
+
+.box{
+    height: 5rem;
+    width: 5rem;
+    border: solid black 1px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#input-section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+#greet-input{
+    padding: 0.5rem ;
+    width: 20rem;
+    font-size: 1.2rem;
+    color: #666;
+}
+
+#greetButton{
+    padding: 0.5rem;
+    font-size: 1.2rem;
+}
+
