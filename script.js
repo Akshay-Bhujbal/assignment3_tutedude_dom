@@ -26,5 +26,9 @@ yellow.onclick = function(){
 }
 
 greetButton.onclick = function(){
-    greeting.innerHTML = `Hello, ${greetInput.value}`
+    if(greetInput.value == ""){
+        greeting.innerHTML = "Hello"
+    }else{
+        greeting.innerHTML = `Hello, ${greetInput.value}`
+    }
 }
